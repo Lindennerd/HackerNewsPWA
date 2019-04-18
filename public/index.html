@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hacker News PWA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Hacker News</h1>
+    <ul class="headerTabs">
+      <li class="headerTab">
+        <a href class="icon" id="responsiveMenu">
+            <i class="fa fa-bars"></i>
+          </a>
+      </li>
+      <li class="headerTab">
+        <a href data-target="news" class="currentTab">New</a>
+      </li>
+      <li class="headerTab">
+        <a href data-target="front">Past</a>
+      </li>
+      <li class="headerTab">
+        <a href data-target="ask">Ask</a>
+      </li>
+      <li class="headerTab">
+        <a href data-target="show">Show</a>
+      </li>
+      <li class="headerTab">
+        <a href data-target="jobs">Jobs</a>
+      </li>
+    </ul>
+
+  </header>
+
+  <div id="cover-spin"></div>
+  <main class="main">
+  </main>
+
+  <footer>
+    <div id="more">
+      More
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="/javascripts/index.js"></script>
+
+</body>
+
+</html>
